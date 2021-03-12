@@ -25,7 +25,8 @@ RUN   apt install -y default-jdk python-3.8 gcc g++ libgcc1 lib32gcc1 gdb libc6 
       
 cd /home/container
 
-# Output Current Java Version
+# Output Current Versions
+python --version
 java -version
       
 
