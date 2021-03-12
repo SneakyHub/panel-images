@@ -5,7 +5,7 @@
 # A SneakyHub Fork Egg (Forked but Modified)
 # ------------------------------------------
 
-FROM httpd:2.4
+FROM ubuntu:18.04
 
 # File Author / Maintainer
 LABEL author="SneakyHub" maintainer="sneaky@sneakyhub.com"
