@@ -27,9 +27,6 @@ RUN   apt install -y gcc g++ libgcc1 lib32gcc1 gdb libc6 libstdc++6 git wget cur
 #change working directory to root of apache webhost
 WORKDIR var/www/html
 
-#copy your files, if you want to copy all use COPY . .
-COPY index.html index.html
-
 #now start the server
 CMD ["apachectl", "-D", "FOREGROUND"]
       
