@@ -3,7 +3,7 @@
 # Environment: Java (glibc support)
 # Minimum Panel Version: 0.6.0
 # ----------------------------------
-FROM       openjdk:15.0.2-jdk-slim
+FROM       openjdk:16.0.1-jdk-slim
 
 LABEL       author="Sneaky" maintainer="Sneaky@sneakyhub.com"
 
